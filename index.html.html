@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>Document</title>
+    <title>Align center-left-right</title>
+    <style>
+        
+        table{
+            font-size: 18px;
+            margin:auto;
+            display :block;
+            border-spacing: 5px 10px;
+            border-layout:fixed; 
+          color: aliceblue;
+            background-color: black;
+            width:230px;
+            border-radius: 15px;
+        }
+        th{
+            background-color: chartreuse;
+            color: black;
+
+        }
+        table,th,td{
+            border: 1px solid white;
+            border-collapse: separate;
+            box-shadow:2px;
+            padding: 15px;
+            border-radius: 10px;
+            
+        }
+        #C{
+            background-color: red;
+        }
+        #equal{
+            background-color: blue;
+        }
+        th,td{
+            width:15%
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+   <table border="1" align="center">
+    <tr>
+        <th colspan="4" style="text-align:right;">98649</th>
+    </tr>
+    
+    <tr>
+        <td colspan="2" id="C" style="text-align: center;">C</td>
+        <td>/</td>
+        <td>*</td>
+    </tr>
+    <tr>
+        <td >7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td >4</td>
+        <td>5</td>
+        <td>6</td>
+        <td rowspan="2">+</td>
+    </tr>
+    <tr>
+        <td >1</td>
+        <td>2</td>
+        <td>3</td>
+       
+    </tr>
+    <tr>
+        <td >0</td>
+        <td>00</td>
+        <td>.</td>
+        <td id="equal">=</td>
+    </tr>
+    
+   </table> 
+</body>
+</html>
